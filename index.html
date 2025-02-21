@@ -9,14 +9,22 @@
             font-family: Arial, sans-serif;
             text-align: center;
             margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
         }
         .producto {
-            display: inline-block;
-            margin: 20px;
-            padding: 10px;
-            border: 1px solid #ddd;
+            background: white;
+            padding: 15px;
             border-radius: 10px;
-            width: 200px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
         }
         .producto img {
             width: 100%;
@@ -27,21 +35,38 @@
 </head>
 <body>
     <h1>Venta de Celulares</h1>
-    <div class="producto">
-        <img src="imagen1.jpg" alt="Celular 1">
-        <h3>Modelo 1</h3>
-        <p>Precio: $XXX</p>
+    <div class="container">
+        <div class="producto">
+            <img src="imagen1.jpg" alt="Celular 1">
+            <h3>Modelo 1</h3>
+            <p>Precio: $XXX</p>
+        </div>
+        <div class="producto">
+            <img src="imagen2.jpg" alt="Celular 2">
+            <h3>Modelo 2</h3>
+            <p>Precio: $XXX</p>
+        </div>
+        <div class="producto">
+            <img src="imagen3.jpg" alt="Celular 3">
+            <h3>Modelo 3</h3>
+            <p>Precio: $XXX</p>
+        </div>
+        <div class="producto">
+            <img src="imagen4.jpg" alt="Celular 4">
+            <h3>Modelo 4</h3>
+            <p>Precio: $XXX</p>
+        </div>
+        <div class="producto">
+            <img src="imagen5.jpg" alt="Celular 5">
+            <h3>Modelo 5</h3>
+            <p>Precio: $XXX</p>
+        </div>
+        <div class="producto">
+            <img src="imagen6.jpg" alt="Celular 6">
+            <h3>Modelo 6</h3>
+            <p>Precio: $XXX</p>
+        </div>
     </div>
-    <div class="producto">
-        <img src="imagen2.jpg" alt="Celular 2">
-        <h3>Modelo 2</h3>
-        <p>Precio: $XXX</p>
-    </div>
-    <div class="producto">
-        <img src="imagen3.jpg" alt="Celular 3">
-        <h3>Modelo 3</h3>
-        <p>Precio: $XXX</p>
-    </div>
-    <p>Reemplaza "imagen1.jpg", "imagen2.jpg" y "imagen3.jpg" con las fotos de los celulares que quieras mostrar.</p>
+    <p>Reemplaza "imagen1.jpg" a "imagen6.jpg" con las fotos de los celulares que quieras mostrar.</p>
 </body>
 </html>
